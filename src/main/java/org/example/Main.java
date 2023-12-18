@@ -109,3 +109,11 @@ public class Main {
         frame.setVisible(true);
     }
 }
+
+   // No teste de Caixa Branca, também chamado de Teste Estrutural, a ênfase está no entendimento interno do componente de software, onde o testador tem acesso ao código-fonte. Essa abordagem permite a criação de códigos específicos para conectar bibliotecas e componentes, destacando-se pelo exame detalhado da estrutura interna do software. O uso de ferramentas como o JUnit exemplifica essa prática ao desenvolver casos de teste para avaliar diretamente classes ou métodos em Java. A escolha pelo teste de Caixa Branca visa uma compreensão profunda do funcionamento interno do software, possibilitando a identificação de falhas e garantindo uma cobertura abrangente dos diferentes caminhos e lógicas do código. Essa estratégia é particularmente valiosa para assegurar a qualidade e robustez do software por meio da análise direta de sua implementação.
+
+   //Por outro lado, o teste de Caixa Preta, ou Teste Funcional, é o oposto do teste de Caixa Branca. Nele, os dados de entrada são fornecidos, o teste é executado, e o resultado obtido é comparado com um resultado esperado previamente conhecido. O teste é considerado bem-sucedido se o resultado obtido corresponder ao esperado. Em resumo, esse tipo de teste verifica se o resultado alcançado é igual ao resultado desejado, baseando-se nos requisitos de uma lista anteriormente definida. O teste de Caixa Preta não envolve a análise do código-fonte, pois sua abordagem é orientada pelos requisitos previamente estabelecidos.
+
+
+
+
